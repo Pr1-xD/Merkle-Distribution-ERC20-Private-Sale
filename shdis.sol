@@ -1,6 +1,4 @@
-/**
- *Submitted for verification at Etherscan.io on 2022-01-05
-*/
+
 
 pragma solidity ^0.6.0;
 
@@ -87,7 +85,7 @@ contract shumoClaim{
     address public owner;
     bytes32 public root;
 
-    address public distributionWallet=0x15412D1f9C63e9123Fa62a3E385a130f5C959De5;
+    address public distributionWallet=0x98AadbBd93892bc8e6c47154d9172f9Ad24d2fFE;
 
     IERC20 public shumo;
     bool public claimIsActive = false;
@@ -95,7 +93,7 @@ contract shumoClaim{
      constructor() public {
         owner=msg.sender;
         root=0x5a69887c896dd1dac6edf4fda9ba2c381ca78a8d92739e2d794a7dd980f7a605;
-        shumo=IERC20(0x910751d0f8fCA84d51570Fba7694A8eDf2c89eB7);
+        shumo=IERC20(0xEaa2C985abF14Ac850F6614faebd6E4436BeA65f);
     }
 
 
